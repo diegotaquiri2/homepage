@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Team 05 || Semana 4</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+  <style>
+    .menu-proyecto {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+</head>
+
+<body>
+<!--------- NAV BAR --------->
+  <div class="menu-container" id="menu">
+      <div class="menu">
+          <div class="menu-table flex-row-space-between">
+            <div class="logo flex-row-center">
+              <a href="index.html">Team 05</a>
+            </div>
+            <a class="menu-button" tabindex="0" href="javascript:void(0)">
+              <img src="img/menu.png">
+            </a>
+            <div class="menu-items flex-row-center flex-item">
+              <a href="index.html" class="menu-index">Home</a>
+              <a href="team.html" class="menu-team" style="opacity: 1; font-weight: 700; color: rgb(255,255,255)">Team</a>
+              <a href="proyecto.html" class="menu-proyecto">Project</a>
+              <a href="bitacora.html" class="menu-embedding">Bitácora</a>
+            </div>
+          </div>
+        </div>
+    </div>
+<!---------------------------------->
+  <div class="content-container" style="position:relative; background-color: ">
+<!-------------------------------CABECERA--------------------------------->
+    <div class="image parallax" style="background-image: url(img/Tean-Header01.jpg); min-height: 350px; margin: 0; z-index: 1">
+        <div class="content-table flex-column" style="background-color: rgba(0, 0, 0, 0.72)">
+            <div class="flex-item flex-column" style="position: relative; top: 100px">
+            <h2 style="align-self: center; color: white; font-size: 55px; text-align: center">Semana 4</h2>
+            <h4 style="align-self: center; color: #bfbfbf; font-size: 18px"></h4>
+            </div>  
+        </div>
+      </div>
+      
+<!----------------------Menu de semanas--------------------->
+    <div class="sidebar border-right" style="display:none; position: fixed; right: 5px" id="mySidebar">
+        <div class="flex-column">
+            <a href="semana1.html" class="bar-item button" style="color:#000000; text-decoration: none">Semana 1</a>
+            <a href="semana2.html" class="bar-item button" style="color:#000000; text-decoration: none">Semana 2</a>
+            <a href="semana3.html" class="bar-item button" style="color:#000000; text-decoration: none">Semana 3</a>
+            <a href="semana4.html" class="bar-item button" style="color:#000000; text-decoration: none">Semana 4</a>
+            <a href="semana5.html" class="bar-item button" style="color:#000000; text-decoration: none">Semana 5</a>
+        </div>
+    </div>
+    <div style="position: fixed; z-index: 2; bottom: 10px; right: 10px"><a class="custom-button custom-button-info" style="border-radius: 10px; width: 100; background-color: rgba(0, 13, 67, 0.88)" onclick="openWeek()">Semanas</a>
+    </div>
+<!-------------------------------------------->
+<!------------------------------------------------------------------------->
+<!--/_/_/_/_/_/_/_/_/_/_/_/------CONTENIDO------/_/_/_/_/_/_/_/_/_/_/_/-->
+<!-----------------Avance--------------------->
+    <div class="flex-row" style="background-color: #80d3c6">
+        <div class="content" style="width:100%">
+            <div class="flex-row" style="padding: 10px">
+                <div class="flex-item flex-column" style="max-width: 75%">
+                    <h3 style="color: #0f0f0f; font-weight: 100; font-family: Helvetica">Informe completo con lo avances del proyecto.</h3>
+                </div>
+                <div class="flex-item flex-column" style="position: absolute; right: 0px">
+                    <div class="control-group">
+                        <a class="custom-button custom-button-info" 
+                           download="PBD-Informe.pdf" 
+                           href="PBD-Informe.pdf" 
+                           style="border-radius: 10px; self-align:center">Descarga</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+<!--------------------------------------------->
+    <div class="content">
+      <div class="content-table flex-column">
+<!-----------------About Us--------------------->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 style="text-align: center; font-size: 40px">Especificaciones técnicas</h2>
+            <hr style="background-color: #7b9eff; height: 1px; border: 0">
+            <div class="flex-item flex-column">
+            <img class="image max-width-400" src="img/1-EspTecnica.png" style="align-self: center; max-width: 600px">
+            </div>
+            <div class="flex-item flex-column">
+            <img class="image max-width-400" src="img/2-EspTecnica.png" style="align-self: center; max-width: 600px">
+            </div>
+            <div class="flex-item flex-column">
+            <img class="image max-width-400" src="img/3-EspTecnica.png" style="align-self: center; max-width: 600px">
+            </div>
+            <div class="flex-item flex-column">
+            <img class="image max-width-400" src="img/4-EspTecnica.png" style="align-self: center; max-width: 600px">
+            </div>
+          </div>
+        </div>
+          <div class="flex-row">             
+              <div class="control-group" style="align-self: center; margin:auto">
+                  
+                  <a class="custom-button custom-button-info" href="semana3.html" style="border-radius: 10px">Semana 3</a>
+                  <a class="custom-button custom-button-info" href="semana5.html" style="border-radius: 10px">Semana 5</a>
+                  
+              </div>
+          </div>
+
+<!--------------------------------------------->
+     </div>
+    </div>
+    <br>
+<!--/-/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/-->
+      
+<!-----------------PIE DE PÁGINA--------------------->
+    <div style="background-color: #4b4b4b">
+        <div class="content" style="font-size: 12px; align-self: : center; text-align: center">
+            <div class="content-table flex-column" style="align-content: center">
+                <div class="flex-row" style="color: white">
+                  <div class="flex-item flex-column">
+                    <p class="text text-large">
+
+                    </p>
+                  </div>
+                  <div class="flex-item flex-column">
+                    <p class="text text-large">
+
+                    </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+  </div>
+<!--------------------------------------------->
+    
+</body>
+
+</html>
